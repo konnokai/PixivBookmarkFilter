@@ -30,9 +30,9 @@
     "semantic_hash": "62494418f8805845608f0ac317aff0f8"
   },
   "Program.cs": {
-    "mtime": 1768656559.3375852,
-    "ast_hash": "b7c5749c6b1a641f07219dec2c1e452b",
-    "semantic_hash": "b7c5749c6b1a641f07219dec2c1e452b"
+    "mtime": 1784126765.2171378,
+    "ast_hash": "2f0a0e1a4965010529fe572ec1202a62",
+    "semantic_hash": "2f0a0e1a4965010529fe572ec1202a62"
   },
   "ProgressBar.cs": {
     "mtime": 1768656558.4175866,
@@ -53,21 +53,6 @@
     "mtime": 1768656559.3375852,
     "ast_hash": "248674dd8b54fbadcca452acd587546e",
     "semantic_hash": "248674dd8b54fbadcca452acd587546e"
-  },
-  "bin/Debug/IgnoreDownloadTag.json": {
-    "mtime": 1768656558.4895866,
-    "ast_hash": "58a4980391aabdb6075849dc340aa070",
-    "semantic_hash": "58a4980391aabdb6075849dc340aa070"
-  },
-  "bin/Debug/TagConvertList.json": {
-    "mtime": 1768656558.4895866,
-    "ast_hash": "fbf3c4a756605393202718ec0bb9e647",
-    "semantic_hash": "fbf3c4a756605393202718ec0bb9e647"
-  },
-  "bin/Debug/UserData.json": {
-    "mtime": 1768656558.4895866,
-    "ast_hash": "8adc81f0581dfe8ff10459f50da077fa",
-    "semantic_hash": "8adc81f0581dfe8ff10459f50da077fa"
   },
   "bin/Debug/net8.0/PixivBookmarkFilter.deps.json": {
     "mtime": 1768656558.7615862,

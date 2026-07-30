@@ -9,10 +9,10 @@
       "source_file": "Pixiv Bookmark Filter/BookmarkTagsMetadata.cs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
+      "community": 3,
       "norm_label": "bookmarktagsmetadata.cs",
-      "id": "pixiv_bookmark_filter_bookmarktagsmetadata",
-      "community_name": "Community 2"
+      "community_name": "PixivBookmarkFilter",
+      "id": "pixiv_bookmark_filter_bookmarktagsmetadata"
     },
     {
       "label": "PixivBookmarkFilter",
@@ -25,10 +25,10 @@
         "namespace": "PixivBookmarkFilter"
       },
       "_origin": "ast",
-      "community": 2,
+      "community": 3,
       "norm_label": "pixivbookmarkfilter",
-      "id": "csharp_namespace:e1602fb0f3e29736",
-      "community_name": "Community 2"
+      "community_name": "PixivBookmarkFilter",
+      "id": "csharp_namespace:e1602fb0f3e29736"
     },
     {
       "label": "Public",
@@ -42,10 +42,10 @@
         ]
       },
       "_origin": "ast",
-      "community": 2,
+      "community": 3,
       "norm_label": "public",
-      "id": "pixiv_bookmark_filter_bookmarktagsmetadata_pixivbookmarkfilter_public",
-      "community_name": "Community 2"
+      "community_name": "PixivBookmarkFilter",
+      "id": "pixiv_bookmark_filter_bookmarktagsmetadata_pixivbookmarkfilter_public"
     },
     {
       "label": "BookmarkTagsMetadata",
@@ -59,10 +59,10 @@
         ]
       },
       "_origin": "ast",
-      "community": 2,
+      "community": 3,
       "norm_label": "bookmarktagsmetadata",
-      "id": "pixiv_bookmark_filter_bookmarktagsmetadata_pixivbookmarkfilter_bookmarktagsmetadata",
-      "community_name": "Community 2"
+      "community_name": "PixivBookmarkFilter",
+      "id": "pixiv_bookmark_filter_bookmarktagsmetadata_pixivbookmarkfilter_bookmarktagsmetadata"
     },
     {
       "label": "List",
@@ -70,10 +70,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 2,
+      "community": 3,
       "norm_label": "list",
-      "id": "pixiv_bookmark_filter_bookmarktagsmetadata_cs_list",
-      "community_name": "Community 2"
+      "community_name": "PixivBookmarkFilter",
+      "id": "pixiv_bookmark_filter_bookmarktagsmetadata_cs_list"
     },
     {
       "label": "BookmarksMetadata.cs",
@@ -81,10 +81,10 @@
       "source_file": "Pixiv Bookmark Filter/BookmarksMetadata.cs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
+      "community": 7,
       "norm_label": "bookmarksmetadata.cs",
-      "id": "pixiv_bookmark_filter_bookmarksmetadata",
-      "community_name": "Community 6"
+      "community_name": "Work",
+      "id": "pixiv_bookmark_filter_bookmarksmetadata"
     },
     {
       "label": "BookmarkData",
@@ -98,10 +98,10 @@
         ]
       },
       "_origin": "ast",
-      "community": 6,
+      "community": 7,
       "norm_label": "bookmarkdata",
-      "id": "pixiv_bookmark_filter_bookmarksmetadata_pixivbookmarkfilter_bookmarkdata",
-      "community_name": "Community 6"
+      "community_name": "Work",
+      "id": "pixiv_bookmark_filter_bookmarksmetadata_pixivbookmarkfilter_bookmarkdata"
     },
     {
       "label": "Work",
@@ -115,10 +115,10 @@
         ]
       },
       "_origin": "ast",
-      "community": 6,
+      "community": 7,
       "norm_label": "work",
-      "id": "pixiv_bookmark_filter_bookmarksmetadata_pixivbookmarkfilter_work",
-      "community_name": "Community 6"
+      "community_name": "Work",
+      "id": "pixiv_bookmark_filter_bookmarksmetadata_pixivbookmarkfilter_work"
     },
     {
       "label": "List",
@@ -126,10 +126,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 6,
+      "community": 7,
       "norm_label": "list",
-      "id": "pixiv_bookmark_filter_bookmarksmetadata_cs_list",
-      "community_name": "Community 6"
+      "community_name": "Work",
+      "id": "pixiv_bookmark_filter_bookmarksmetadata_cs_list"
     },
     {
       "label": "DateTime",
@@ -137,10 +137,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 6,
+      "community": 7,
       "norm_label": "datetime",
-      "id": "pixiv_bookmark_filter_bookmarksmetadata_cs_datetime",
-      "community_name": "Community 6"
+      "community_name": "Work",
+      "id": "pixiv_bookmark_filter_bookmarksmetadata_cs_datetime"
     },
     {
       "label": "BookmarksMetadata",
@@ -154,10 +154,10 @@
         ]
       },
       "_origin": "ast",
-      "community": 6,
+      "community": 7,
       "norm_label": "bookmarksmetadata",
-      "id": "pixiv_bookmark_filter_bookmarksmetadata_pixivbookmarkfilter_bookmarksmetadata",
-      "community_name": "Community 6"
+      "community_name": "Work",
+      "id": "pixiv_bookmark_filter_bookmarksmetadata_pixivbookmarkfilter_bookmarksmetadata"
     },
     {
       "label": "ExtraMetaData.cs",
@@ -165,10 +165,10 @@
       "source_file": "Pixiv Bookmark Filter/ExtraMetaData.cs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
+      "community": 3,
       "norm_label": "extrametadata.cs",
-      "id": "pixiv_bookmark_filter_extrametadata",
-      "community_name": "Community 2"
+      "community_name": "PixivBookmarkFilter",
+      "id": "pixiv_bookmark_filter_extrametadata"
     },
     {
       "label": "ExtraMetaData",
@@ -182,10 +182,10 @@
         ]
       },
       "_origin": "ast",
-      "community": 2,
+      "community": 3,
       "norm_label": "extrametadata",
-      "id": "pixiv_bookmark_filter_extrametadata_pixivbookmarkfilter_extrametadata",
-      "community_name": "Community 2"
+      "community_name": "PixivBookmarkFilter",
+      "id": "pixiv_bookmark_filter_extrametadata_pixivbookmarkfilter_extrametadata"
     },
     {
       "label": "IllustMetadata.cs",
@@ -193,10 +193,10 @@
       "source_file": "Pixiv Bookmark Filter/IllustMetadata.cs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
+      "community": 6,
       "norm_label": "illustmetadata.cs",
-      "id": "pixiv_bookmark_filter_illustmetadata",
-      "community_name": "Community 5"
+      "community_name": "IllustMetadata.cs",
+      "id": "pixiv_bookmark_filter_illustmetadata"
     },
     {
       "label": "ResultBody",
@@ -210,10 +210,10 @@
         ]
       },
       "_origin": "ast",
-      "community": 5,
+      "community": 6,
       "norm_label": "resultbody",
-      "id": "pixiv_bookmark_filter_illustmetadata_pixivbookmarkfilter_resultbody",
-      "community_name": "Community 5"
+      "community_name": "IllustMetadata.cs",
+      "id": "pixiv_bookmark_filter_illustmetadata_pixivbookmarkfilter_resultbody"
     },
     {
       "label": "IllustMetadata",
@@ -227,10 +227,10 @@
         ]
       },
       "_origin": "ast",
-      "community": 5,
+      "community": 6,
       "norm_label": "illustmetadata",
-      "id": "pixiv_bookmark_filter_illustmetadata_pixivbookmarkfilter_illustmetadata",
-      "community_name": "Community 5"
+      "community_name": "IllustMetadata.cs",
+      "id": "pixiv_bookmark_filter_illustmetadata_pixivbookmarkfilter_illustmetadata"
     },
     {
       "label": "DateTime",
@@ -238,10 +238,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 5,
+      "community": 6,
       "norm_label": "datetime",
-      "id": "pixiv_bookmark_filter_illustmetadata_cs_datetime",
-      "community_name": "Community 5"
+      "community_name": "IllustMetadata.cs",
+      "id": "pixiv_bookmark_filter_illustmetadata_cs_datetime"
     },
     {
       "label": "List",
@@ -249,10 +249,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 5,
+      "community": 6,
       "norm_label": "list",
-      "id": "pixiv_bookmark_filter_illustmetadata_cs_list",
-      "community_name": "Community 5"
+      "community_name": "IllustMetadata.cs",
+      "id": "pixiv_bookmark_filter_illustmetadata_cs_list"
     },
     {
       "label": "Tag",
@@ -266,10 +266,10 @@
         ]
       },
       "_origin": "ast",
-      "community": 5,
+      "community": 6,
       "norm_label": "tag",
-      "id": "pixiv_bookmark_filter_illustmetadata_pixivbookmarkfilter_tag",
-      "community_name": "Community 5"
+      "community_name": "IllustMetadata.cs",
+      "id": "pixiv_bookmark_filter_illustmetadata_pixivbookmarkfilter_tag"
     },
     {
       "label": "Urls",
@@ -283,10 +283,10 @@
         ]
       },
       "_origin": "ast",
-      "community": 5,
+      "community": 6,
       "norm_label": "urls",
-      "id": "pixiv_bookmark_filter_illustmetadata_pixivbookmarkfilter_urls",
-      "community_name": "Community 5"
+      "community_name": "IllustMetadata.cs",
+      "id": "pixiv_bookmark_filter_illustmetadata_pixivbookmarkfilter_urls"
     },
     {
       "label": "PixivBookmarkFilter.csproj",
@@ -296,8 +296,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "pixivbookmarkfilter.csproj",
-      "id": "pixiv_bookmark_filter_pixivbookmarkfilter",
-      "community_name": "Community 4"
+      "community_name": "Community 4",
+      "id": "pixiv_bookmark_filter_pixivbookmarkfilter"
     },
     {
       "label": "net8.0",
@@ -307,8 +307,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "net8.0",
-      "id": "framework_net8_0",
-      "community_name": "Community 4"
+      "community_name": "Community 4",
+      "id": "framework_net8_0"
     },
     {
       "label": "HtmlAgilityPack (1.11.71)",
@@ -318,8 +318,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "htmlagilitypack (1.11.71)",
-      "id": "nuget_htmlagilitypack",
-      "community_name": "Community 4"
+      "community_name": "Community 4",
+      "id": "nuget_htmlagilitypack"
     },
     {
       "label": "Microsoft.CSharp (4.7.0)",
@@ -329,8 +329,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "microsoft.csharp (4.7.0)",
-      "id": "nuget_microsoft_csharp",
-      "community_name": "Community 4"
+      "community_name": "Community 4",
+      "id": "nuget_microsoft_csharp"
     },
     {
       "label": "Newtonsoft.Json (13.0.3)",
@@ -340,8 +340,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "newtonsoft.json (13.0.3)",
-      "id": "nuget_newtonsoft_json",
-      "community_name": "Community 4"
+      "community_name": "Community 4",
+      "id": "nuget_newtonsoft_json"
     },
     {
       "label": "System.Data.DataSetExtensions (4.5.0)",
@@ -351,8 +351,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "system.data.datasetextensions (4.5.0)",
-      "id": "nuget_system_data_datasetextensions",
-      "community_name": "Community 4"
+      "community_name": "Community 4",
+      "id": "nuget_system_data_datasetextensions"
     },
     {
       "label": "Microsoft.AspNetCore.SystemWebAdapters (1.3.0)",
@@ -362,8 +362,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "microsoft.aspnetcore.systemwebadapters (1.3.0)",
-      "id": "nuget_microsoft_aspnetcore_systemwebadapters",
-      "community_name": "Community 4"
+      "community_name": "Community 4",
+      "id": "nuget_microsoft_aspnetcore_systemwebadapters"
     },
     {
       "label": "Microsoft.NET.Sdk",
@@ -373,36 +373,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "microsoft.net.sdk",
-      "id": "sdk_microsoft_net_sdk",
-      "community_name": "Community 4"
-    },
-    {
-      "label": "Program.cs",
-      "file_type": "code",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "program.cs",
-      "id": "pixiv_bookmark_filter_program",
-      "community_name": "Community 2"
-    },
-    {
-      "label": "Program",
-      "file_type": "code",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L14",
-      "metadata": {
-        "namespace": "PixivBookmarkFilter",
-        "scope_chain": [
-          "s240"
-        ]
-      },
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "program",
-      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
-      "community_name": "Community 0"
+      "community_name": "Community 4",
+      "id": "sdk_microsoft_net_sdk"
     },
     {
       "label": "string",
@@ -410,27 +382,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
+      "community": 21,
       "norm_label": "string",
-      "id": "pixiv_bookmark_filter_program_cs_string",
-      "community_name": "Community 0"
-    },
-    {
-      "label": ".Main()",
-      "file_type": "code",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L19",
-      "metadata": {
-        "namespace": "PixivBookmarkFilter",
-        "scope_chain": [
-          "s240"
-        ]
-      },
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": ".main()",
-      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main",
-      "community_name": "Community 0"
+      "community_name": "string",
+      "id": "pixiv_bookmark_filter_program_cs_string"
     },
     {
       "label": "Task",
@@ -438,10 +393,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "task",
-      "id": "task",
-      "community_name": "Community 0"
+      "community_name": ".Main",
+      "id": "task"
     },
     {
       "label": "HttpClient",
@@ -449,95 +404,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
+      "community": 2,
       "norm_label": "httpclient",
-      "id": "httpclient",
-      "community_name": "Community 0"
-    },
-    {
-      "label": ".DownloadPictureAsync()",
-      "file_type": "code",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L143",
-      "metadata": {
-        "namespace": "PixivBookmarkFilter",
-        "scope_chain": [
-          "s240"
-        ]
-      },
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": ".downloadpictureasync()",
-      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_downloadpictureasync",
-      "community_name": "Community 0"
-    },
-    {
-      "label": ".LoginPixiv()",
-      "file_type": "code",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L197",
-      "metadata": {
-        "namespace": "PixivBookmarkFilter",
-        "scope_chain": [
-          "s240"
-        ]
-      },
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": ".loginpixiv()",
-      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_loginpixiv",
-      "community_name": "Community 0"
-    },
-    {
-      "label": ".PostServerDataAsync()",
-      "file_type": "code",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L224",
-      "metadata": {
-        "namespace": "PixivBookmarkFilter",
-        "scope_chain": [
-          "s240"
-        ]
-      },
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": ".postserverdataasync()",
-      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_postserverdataasync",
-      "community_name": "Community 0"
-    },
-    {
-      "label": ".GetServerDataAsync()",
-      "file_type": "code",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L245",
-      "metadata": {
-        "namespace": "PixivBookmarkFilter",
-        "scope_chain": [
-          "s240"
-        ]
-      },
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": ".getserverdataasync()",
-      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getserverdataasync",
-      "community_name": "Community 0"
-    },
-    {
-      "label": ".GetTagConvertList()",
-      "file_type": "code",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L276",
-      "metadata": {
-        "namespace": "PixivBookmarkFilter",
-        "scope_chain": [
-          "s240"
-        ]
-      },
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": ".gettagconvertlist()",
-      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagconvertlist",
-      "community_name": "Community 0"
+      "community_name": "Program",
+      "id": "httpclient"
     },
     {
       "label": "Dictionary",
@@ -545,27 +415,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "dictionary",
-      "id": "dictionary",
-      "community_name": "Community 0"
-    },
-    {
-      "label": ".GetIgnoreDownloadTagList()",
-      "file_type": "code",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L287",
-      "metadata": {
-        "namespace": "PixivBookmarkFilter",
-        "scope_chain": [
-          "s240"
-        ]
-      },
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": ".getignoredownloadtaglist()",
-      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getignoredownloadtaglist",
-      "community_name": "Community 0"
+      "community_name": ".Main",
+      "id": "dictionary"
     },
     {
       "label": "List",
@@ -573,44 +426,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
+      "community": 20,
       "norm_label": "list",
-      "id": "pixiv_bookmark_filter_program_cs_list",
-      "community_name": "Community 0"
-    },
-    {
-      "label": ".GetUserTagList()",
-      "file_type": "code",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L298",
-      "metadata": {
-        "namespace": "PixivBookmarkFilter",
-        "scope_chain": [
-          "s240"
-        ]
-      },
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": ".getusertaglist()",
-      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getusertaglist",
-      "community_name": "Community 0"
-    },
-    {
-      "label": ".FormatColorWrite()",
-      "file_type": "code",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L307",
-      "metadata": {
-        "namespace": "PixivBookmarkFilter",
-        "scope_chain": [
-          "s240"
-        ]
-      },
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": ".formatcolorwrite()",
-      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_formatcolorwrite",
-      "community_name": "Community 0"
+      "community_name": "List",
+      "id": "pixiv_bookmark_filter_program_cs_list"
     },
     {
       "label": "ConsoleColor",
@@ -618,10 +437,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "consolecolor",
-      "id": "consolecolor",
-      "community_name": "Community 0"
+      "community_name": ".Main",
+      "id": "consolecolor"
     },
     {
       "label": "ProgressBar.cs",
@@ -629,10 +448,10 @@
       "source_file": "Pixiv Bookmark Filter/ProgressBar.cs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "progressbar.cs",
-      "id": "pixiv_bookmark_filter_progressbar",
-      "community_name": "Community 1"
+      "community_name": "ProgressBar",
+      "id": "pixiv_bookmark_filter_progressbar"
     },
     {
       "label": "ProgressBar",
@@ -640,10 +459,10 @@
       "source_file": "Pixiv Bookmark Filter/ProgressBar.cs",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "progressbar",
-      "id": "pixiv_bookmark_filter_progressbar_progressbar",
-      "community_name": "Community 1"
+      "community_name": "ProgressBar",
+      "id": "pixiv_bookmark_filter_progressbar_progressbar"
     },
     {
       "label": "IDisposable",
@@ -651,10 +470,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "idisposable",
-      "id": "idisposable",
-      "community_name": "Community 1"
+      "community_name": "ProgressBar",
+      "id": "idisposable"
     },
     {
       "label": "IProgress",
@@ -662,10 +481,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "iprogress",
-      "id": "iprogress",
-      "community_name": "Community 1"
+      "community_name": "ProgressBar",
+      "id": "iprogress"
     },
     {
       "label": "int",
@@ -673,10 +492,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "int",
-      "id": "int",
-      "community_name": "Community 1"
+      "community_name": "ProgressBar",
+      "id": "int"
     },
     {
       "label": "TimeSpan",
@@ -684,10 +503,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "timespan",
-      "id": "timespan",
-      "community_name": "Community 1"
+      "community_name": "ProgressBar",
+      "id": "timespan"
     },
     {
       "label": "string",
@@ -695,10 +514,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "string",
-      "id": "pixiv_bookmark_filter_progressbar_cs_string",
-      "community_name": "Community 1"
+      "community_name": "ProgressBar",
+      "id": "pixiv_bookmark_filter_progressbar_cs_string"
     },
     {
       "label": "Timer",
@@ -706,10 +525,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "timer",
-      "id": "timer",
-      "community_name": "Community 1"
+      "community_name": "ProgressBar",
+      "id": "timer"
     },
     {
       "label": "double",
@@ -717,10 +536,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "double",
-      "id": "double",
-      "community_name": "Community 1"
+      "community_name": "ProgressBar",
+      "id": "double"
     },
     {
       "label": "bool",
@@ -728,10 +547,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "bool",
-      "id": "bool",
-      "community_name": "Community 1"
+      "community_name": "ProgressBar",
+      "id": "bool"
     },
     {
       "label": ".Report()",
@@ -739,10 +558,10 @@
       "source_file": "Pixiv Bookmark Filter/ProgressBar.cs",
       "source_location": "L31",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": ".report()",
-      "id": "pixiv_bookmark_filter_progressbar_progressbar_report",
-      "community_name": "Community 1"
+      "community_name": "ProgressBar",
+      "id": "pixiv_bookmark_filter_progressbar_progressbar_report"
     },
     {
       "label": ".TimerHandler()",
@@ -750,10 +569,10 @@
       "source_file": "Pixiv Bookmark Filter/ProgressBar.cs",
       "source_location": "L37",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": ".timerhandler()",
-      "id": "pixiv_bookmark_filter_progressbar_progressbar_timerhandler",
-      "community_name": "Community 1"
+      "community_name": "ProgressBar",
+      "id": "pixiv_bookmark_filter_progressbar_progressbar_timerhandler"
     },
     {
       "label": ".UpdateText()",
@@ -761,10 +580,10 @@
       "source_file": "Pixiv Bookmark Filter/ProgressBar.cs",
       "source_location": "L53",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": ".updatetext()",
-      "id": "pixiv_bookmark_filter_progressbar_progressbar_updatetext",
-      "community_name": "Community 1"
+      "community_name": "ProgressBar",
+      "id": "pixiv_bookmark_filter_progressbar_progressbar_updatetext"
     },
     {
       "label": ".ResetTimer()",
@@ -772,10 +591,10 @@
       "source_file": "Pixiv Bookmark Filter/ProgressBar.cs",
       "source_location": "L79",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": ".resettimer()",
-      "id": "pixiv_bookmark_filter_progressbar_progressbar_resettimer",
-      "community_name": "Community 1"
+      "community_name": "ProgressBar",
+      "id": "pixiv_bookmark_filter_progressbar_progressbar_resettimer"
     },
     {
       "label": ".Dispose()",
@@ -783,10 +602,10 @@
       "source_file": "Pixiv Bookmark Filter/ProgressBar.cs",
       "source_location": "L83",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": ".dispose()",
-      "id": "pixiv_bookmark_filter_progressbar_progressbar_dispose",
-      "community_name": "Community 1"
+      "community_name": "ProgressBar",
+      "id": "pixiv_bookmark_filter_progressbar_progressbar_dispose"
     },
     {
       "label": "AssemblyInfo.cs",
@@ -794,10 +613,10 @@
       "source_file": "Pixiv Bookmark Filter/Properties/AssemblyInfo.cs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 19,
+      "community": 22,
       "norm_label": "assemblyinfo.cs",
-      "id": "pixiv_bookmark_filter_properties_assemblyinfo",
-      "community_name": "Community 19"
+      "community_name": "AssemblyInfo.cs",
+      "id": "pixiv_bookmark_filter_properties_assemblyinfo"
     },
     {
       "label": "StringEncrypt.cs",
@@ -807,8 +626,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "stringencrypt.cs",
-      "id": "pixiv_bookmark_filter_stringencrypt",
-      "community_name": "Community 3"
+      "community_name": "PixivBookmarkFilter",
+      "id": "pixiv_bookmark_filter_stringencrypt"
     },
     {
       "label": "StringEncrypt",
@@ -822,10 +641,10 @@
         ]
       },
       "_origin": "ast",
-      "community": 3,
+      "community": 5,
       "norm_label": "stringencrypt",
-      "id": "pixiv_bookmark_filter_stringencrypt_pixivbookmarkfilter_stringencrypt",
-      "community_name": "Community 3"
+      "community_name": "StringEncrypt",
+      "id": "pixiv_bookmark_filter_stringencrypt_pixivbookmarkfilter_stringencrypt"
     },
     {
       "label": ".AesEncryptBase64()",
@@ -839,10 +658,10 @@
         ]
       },
       "_origin": "ast",
-      "community": 3,
+      "community": 5,
       "norm_label": ".aesencryptbase64()",
-      "id": "pixiv_bookmark_filter_stringencrypt_pixivbookmarkfilter_stringencrypt_aesencryptbase64",
-      "community_name": "Community 3"
+      "community_name": "StringEncrypt",
+      "id": "pixiv_bookmark_filter_stringencrypt_pixivbookmarkfilter_stringencrypt_aesencryptbase64"
     },
     {
       "label": ".AesDecryptBase64()",
@@ -856,10 +675,10 @@
         ]
       },
       "_origin": "ast",
-      "community": 3,
+      "community": 5,
       "norm_label": ".aesdecryptbase64()",
-      "id": "pixiv_bookmark_filter_stringencrypt_pixivbookmarkfilter_stringencrypt_aesdecryptbase64",
-      "community_name": "Community 3"
+      "community_name": "StringEncrypt",
+      "id": "pixiv_bookmark_filter_stringencrypt_pixivbookmarkfilter_stringencrypt_aesdecryptbase64"
     },
     {
       "label": ".SaveUserCookies()",
@@ -873,10 +692,10 @@
         ]
       },
       "_origin": "ast",
-      "community": 3,
+      "community": 5,
       "norm_label": ".saveusercookies()",
-      "id": "pixiv_bookmark_filter_stringencrypt_pixivbookmarkfilter_stringencrypt_saveusercookies",
-      "community_name": "Community 3"
+      "community_name": "StringEncrypt",
+      "id": "pixiv_bookmark_filter_stringencrypt_pixivbookmarkfilter_stringencrypt_saveusercookies"
     },
     {
       "label": "CookieContainer",
@@ -884,10 +703,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 3,
+      "community": 5,
       "norm_label": "cookiecontainer",
-      "id": "cookiecontainer",
-      "community_name": "Community 3"
+      "community_name": "StringEncrypt",
+      "id": "cookiecontainer"
     },
     {
       "label": "Uri",
@@ -895,10 +714,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 3,
+      "community": 5,
       "norm_label": "uri",
-      "id": "uri",
-      "community_name": "Community 3"
+      "community_name": "StringEncrypt",
+      "id": "uri"
     },
     {
       "label": ".LoadUserCookies()",
@@ -912,10 +731,10 @@
         ]
       },
       "_origin": "ast",
-      "community": 3,
+      "community": 5,
       "norm_label": ".loadusercookies()",
-      "id": "pixiv_bookmark_filter_stringencrypt_pixivbookmarkfilter_stringencrypt_loadusercookies",
-      "community_name": "Community 3"
+      "community_name": "StringEncrypt",
+      "id": "pixiv_bookmark_filter_stringencrypt_pixivbookmarkfilter_stringencrypt_loadusercookies"
     },
     {
       "label": "UserData.cs",
@@ -923,10 +742,10 @@
       "source_file": "Pixiv Bookmark Filter/UserData.cs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
+      "community": 3,
       "norm_label": "userdata.cs",
-      "id": "pixiv_bookmark_filter_userdata",
-      "community_name": "Community 2"
+      "community_name": "PixivBookmarkFilter",
+      "id": "pixiv_bookmark_filter_userdata"
     },
     {
       "label": "UserData",
@@ -940,10 +759,10 @@
         ]
       },
       "_origin": "ast",
-      "community": 2,
+      "community": 3,
       "norm_label": "userdata",
-      "id": "pixiv_bookmark_filter_userdata_pixivbookmarkfilter_userdata",
-      "community_name": "Community 2"
+      "community_name": "PixivBookmarkFilter",
+      "id": "pixiv_bookmark_filter_userdata_pixivbookmarkfilter_userdata"
     },
     {
       "label": ".NETFramework,Version=v4.5.AssemblyAttributes.cs",
@@ -951,10 +770,10 @@
       "source_file": "Pixiv Bookmark Filter/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttributes.cs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 8,
+      "community": 9,
       "norm_label": ".netframework,version=v4.5.assemblyattributes.cs",
-      "id": "pixiv_bookmark_filter_obj_debug_netframework_version_v4_5_assemblyattributes",
-      "community_name": "Community 8"
+      "community_name": ".NETFramework,Version=v4.5.AssemblyAttributes.cs",
+      "id": "pixiv_bookmark_filter_obj_debug_netframework_version_v4_5_assemblyattributes"
     },
     {
       "label": ".NETFramework,Version=v4.8.AssemblyAttributes.cs",
@@ -962,10 +781,10 @@
       "source_file": "Pixiv Bookmark Filter/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 9,
+      "community": 10,
       "norm_label": ".netframework,version=v4.8.assemblyattributes.cs",
-      "id": "pixiv_bookmark_filter_obj_debug_netframework_version_v4_8_assemblyattributes",
-      "community_name": "Community 9"
+      "community_name": ".NETFramework,Version=v4.8.AssemblyAttributes.cs",
+      "id": "pixiv_bookmark_filter_obj_debug_netframework_version_v4_8_assemblyattributes"
     },
     {
       "label": "TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs",
@@ -973,10 +792,10 @@
       "source_file": "Pixiv Bookmark Filter/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 10,
+      "community": 11,
       "norm_label": "temporarygeneratedfile_036c0b5b-1481-4323-8d20-8f5adcb23d92.cs",
-      "id": "pixiv_bookmark_filter_obj_debug_temporarygeneratedfile_036c0b5b_1481_4323_8d20_8f5adcb23d92",
-      "community_name": "Community 10"
+      "community_name": "TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs",
+      "id": "pixiv_bookmark_filter_obj_debug_temporarygeneratedfile_036c0b5b_1481_4323_8d20_8f5adcb23d92"
     },
     {
       "label": "TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
@@ -984,10 +803,10 @@
       "source_file": "Pixiv Bookmark Filter/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 11,
+      "community": 12,
       "norm_label": "temporarygeneratedfile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
-      "id": "pixiv_bookmark_filter_obj_debug_temporarygeneratedfile_5937a670_0e60_4077_877b_f7221da3dda1",
-      "community_name": "Community 11"
+      "community_name": "TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
+      "id": "pixiv_bookmark_filter_obj_debug_temporarygeneratedfile_5937a670_0e60_4077_877b_f7221da3dda1"
     },
     {
       "label": "TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs",
@@ -995,10 +814,10 @@
       "source_file": "Pixiv Bookmark Filter/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 12,
+      "community": 13,
       "norm_label": "temporarygeneratedfile_e7a71f73-0f8d-4b9b-b56e-8e70b10bc5d3.cs",
-      "id": "pixiv_bookmark_filter_obj_debug_temporarygeneratedfile_e7a71f73_0f8d_4b9b_b56e_8e70b10bc5d3",
-      "community_name": "Community 12"
+      "community_name": "TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs",
+      "id": "pixiv_bookmark_filter_obj_debug_temporarygeneratedfile_e7a71f73_0f8d_4b9b_b56e_8e70b10bc5d3"
     },
     {
       "label": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
@@ -1006,10 +825,10 @@
       "source_file": "Pixiv Bookmark Filter/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "norm_label": ".netcoreapp,version=v8.0.assemblyattributes.cs",
-      "id": "pixiv_bookmark_filter_obj_debug_net8_0_netcoreapp_version_v8_0_assemblyattributes",
-      "community_name": "Community 7"
+      "community_name": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+      "id": "pixiv_bookmark_filter_obj_debug_net8_0_netcoreapp_version_v8_0_assemblyattributes"
     },
     {
       "label": ".NETFramework,Version=v4.5.AssemblyAttributes.cs",
@@ -1017,10 +836,10 @@
       "source_file": "Pixiv Bookmark Filter/obj/Release/.NETFramework,Version=v4.5.AssemblyAttributes.cs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 14,
+      "community": 15,
       "norm_label": ".netframework,version=v4.5.assemblyattributes.cs",
-      "id": "pixiv_bookmark_filter_obj_release_netframework_version_v4_5_assemblyattributes",
-      "community_name": "Community 14"
+      "community_name": ".NETFramework,Version=v4.5.AssemblyAttributes.cs",
+      "id": "pixiv_bookmark_filter_obj_release_netframework_version_v4_5_assemblyattributes"
     },
     {
       "label": ".NETFramework,Version=v4.8.AssemblyAttributes.cs",
@@ -1028,10 +847,10 @@
       "source_file": "Pixiv Bookmark Filter/obj/Release/.NETFramework,Version=v4.8.AssemblyAttributes.cs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 15,
+      "community": 16,
       "norm_label": ".netframework,version=v4.8.assemblyattributes.cs",
-      "id": "pixiv_bookmark_filter_obj_release_netframework_version_v4_8_assemblyattributes",
-      "community_name": "Community 15"
+      "community_name": ".NETFramework,Version=v4.8.AssemblyAttributes.cs",
+      "id": "pixiv_bookmark_filter_obj_release_netframework_version_v4_8_assemblyattributes"
     },
     {
       "label": "TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs",
@@ -1039,10 +858,10 @@
       "source_file": "Pixiv Bookmark Filter/obj/Release/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 16,
+      "community": 17,
       "norm_label": "temporarygeneratedfile_036c0b5b-1481-4323-8d20-8f5adcb23d92.cs",
-      "id": "pixiv_bookmark_filter_obj_release_temporarygeneratedfile_036c0b5b_1481_4323_8d20_8f5adcb23d92",
-      "community_name": "Community 16"
+      "community_name": "TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs",
+      "id": "pixiv_bookmark_filter_obj_release_temporarygeneratedfile_036c0b5b_1481_4323_8d20_8f5adcb23d92"
     },
     {
       "label": "TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
@@ -1050,10 +869,10 @@
       "source_file": "Pixiv Bookmark Filter/obj/Release/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 17,
+      "community": 18,
       "norm_label": "temporarygeneratedfile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
-      "id": "pixiv_bookmark_filter_obj_release_temporarygeneratedfile_5937a670_0e60_4077_877b_f7221da3dda1",
-      "community_name": "Community 17"
+      "community_name": "TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
+      "id": "pixiv_bookmark_filter_obj_release_temporarygeneratedfile_5937a670_0e60_4077_877b_f7221da3dda1"
     },
     {
       "label": "TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs",
@@ -1061,10 +880,10 @@
       "source_file": "Pixiv Bookmark Filter/obj/Release/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 18,
+      "community": 19,
       "norm_label": "temporarygeneratedfile_e7a71f73-0f8d-4b9b-b56e-8e70b10bc5d3.cs",
-      "id": "pixiv_bookmark_filter_obj_release_temporarygeneratedfile_e7a71f73_0f8d_4b9b_b56e_8e70b10bc5d3",
-      "community_name": "Community 18"
+      "community_name": "TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs",
+      "id": "pixiv_bookmark_filter_obj_release_temporarygeneratedfile_e7a71f73_0f8d_4b9b_b56e_8e70b10bc5d3"
     },
     {
       "label": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
@@ -1072,10 +891,411 @@
       "source_file": "Pixiv Bookmark Filter/obj/Release/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 13,
+      "community": 14,
       "norm_label": ".netcoreapp,version=v8.0.assemblyattributes.cs",
-      "id": "pixiv_bookmark_filter_obj_release_net8_0_netcoreapp_version_v8_0_assemblyattributes",
-      "community_name": "Community 13"
+      "community_name": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+      "id": "pixiv_bookmark_filter_obj_release_net8_0_netcoreapp_version_v8_0_assemblyattributes"
+    },
+    {
+      "label": "string",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "string",
+      "community_name": "Program",
+      "id": "string"
+    },
+    {
+      "label": "UserData",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "userdata",
+      "community_name": "Program",
+      "id": "userdata"
+    },
+    {
+      "label": "List",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "list",
+      "community_name": ".Main",
+      "id": "list"
+    },
+    {
+      "label": "Program.cs",
+      "file_type": "code",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "program.cs",
+      "id": "pixiv_bookmark_filter_program",
+      "community_name": "PixivBookmarkFilter"
+    },
+    {
+      "label": "Program",
+      "file_type": "code",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L14",
+      "metadata": {
+        "namespace": "PixivBookmarkFilter",
+        "scope_chain": [
+          "s240"
+        ]
+      },
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "program",
+      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
+      "community_name": "Program"
+    },
+    {
+      "label": "TagSuggestion",
+      "file_type": "code",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L16",
+      "metadata": {
+        "is_nested_type": true,
+        "namespace": "PixivBookmarkFilter",
+        "scope_chain": [
+          "s240"
+        ]
+      },
+      "_origin": "ast",
+      "community": 3,
+      "norm_label": "tagsuggestion",
+      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_tagsuggestion",
+      "community_name": "PixivBookmarkFilter"
+    },
+    {
+      "label": ".Main()",
+      "file_type": "code",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L28",
+      "metadata": {
+        "namespace": "PixivBookmarkFilter",
+        "scope_chain": [
+          "s240"
+        ]
+      },
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": ".main()",
+      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main",
+      "community_name": ".Main"
+    },
+    {
+      "label": ".DownloadPictureAsync()",
+      "file_type": "code",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L172",
+      "metadata": {
+        "namespace": "PixivBookmarkFilter",
+        "scope_chain": [
+          "s240"
+        ]
+      },
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": ".downloadpictureasync()",
+      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_downloadpictureasync",
+      "community_name": ".Main"
+    },
+    {
+      "label": ".LoginPixivAsync()",
+      "file_type": "code",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L238",
+      "metadata": {
+        "namespace": "PixivBookmarkFilter",
+        "scope_chain": [
+          "s240"
+        ]
+      },
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": ".loginpixivasync()",
+      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_loginpixivasync",
+      "community_name": ".Main"
+    },
+    {
+      "label": ".PostServerDataAsync()",
+      "file_type": "code",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L279",
+      "metadata": {
+        "namespace": "PixivBookmarkFilter",
+        "scope_chain": [
+          "s240"
+        ]
+      },
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": ".postserverdataasync()",
+      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_postserverdataasync",
+      "community_name": ".Main"
+    },
+    {
+      "label": ".GetServerDataAsync()",
+      "file_type": "code",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L319",
+      "metadata": {
+        "namespace": "PixivBookmarkFilter",
+        "scope_chain": [
+          "s240"
+        ]
+      },
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": ".getserverdataasync()",
+      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getserverdataasync",
+      "community_name": ".Main"
+    },
+    {
+      "label": ".GetTagSuggestions()",
+      "file_type": "code",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L378",
+      "metadata": {
+        "namespace": "PixivBookmarkFilter",
+        "scope_chain": [
+          "s240"
+        ]
+      },
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".gettagsuggestions()",
+      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagsuggestions",
+      "community_name": "Program"
+    },
+    {
+      "label": "IEnumerable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "ienumerable",
+      "id": "ienumerable",
+      "community_name": "Program"
+    },
+    {
+      "label": ".TryParseSuggestedTags()",
+      "file_type": "code",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L425",
+      "metadata": {
+        "namespace": "PixivBookmarkFilter",
+        "scope_chain": [
+          "s240"
+        ]
+      },
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": ".tryparsesuggestedtags()",
+      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_tryparsesuggestedtags",
+      "community_name": ".Main"
+    },
+    {
+      "label": ".GetTagSimilarity()",
+      "file_type": "code",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L451",
+      "metadata": {
+        "namespace": "PixivBookmarkFilter",
+        "scope_chain": [
+          "s240"
+        ]
+      },
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".gettagsimilarity()",
+      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagsimilarity",
+      "community_name": "Program"
+    },
+    {
+      "label": ".NormalizeTag()",
+      "file_type": "code",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L477",
+      "metadata": {
+        "namespace": "PixivBookmarkFilter",
+        "scope_chain": [
+          "s240"
+        ]
+      },
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".normalizetag()",
+      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_normalizetag",
+      "community_name": "Program"
+    },
+    {
+      "label": ".IsShortAcronymPrefix()",
+      "file_type": "code",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L496",
+      "metadata": {
+        "namespace": "PixivBookmarkFilter",
+        "scope_chain": [
+          "s240"
+        ]
+      },
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".isshortacronymprefix()",
+      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_isshortacronymprefix",
+      "community_name": "Program"
+    },
+    {
+      "label": ".IsMeaningfulTagLength()",
+      "file_type": "code",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L508",
+      "metadata": {
+        "namespace": "PixivBookmarkFilter",
+        "scope_chain": [
+          "s240"
+        ]
+      },
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".ismeaningfultaglength()",
+      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_ismeaningfultaglength",
+      "community_name": "Program"
+    },
+    {
+      "label": "Rune",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "rune",
+      "id": "rune",
+      "community_name": "Program"
+    },
+    {
+      "label": ".GetLevenshteinDistance()",
+      "file_type": "code",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L514",
+      "metadata": {
+        "namespace": "PixivBookmarkFilter",
+        "scope_chain": [
+          "s240"
+        ]
+      },
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": ".getlevenshteindistance()",
+      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getlevenshteindistance",
+      "community_name": "Program"
+    },
+    {
+      "label": ".GetDownloadFolder()",
+      "file_type": "code",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L536",
+      "metadata": {
+        "namespace": "PixivBookmarkFilter",
+        "scope_chain": [
+          "s240"
+        ]
+      },
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": ".getdownloadfolder()",
+      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getdownloadfolder",
+      "community_name": ".Main"
+    },
+    {
+      "label": ".GetTagConvertList()",
+      "file_type": "code",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L548",
+      "metadata": {
+        "namespace": "PixivBookmarkFilter",
+        "scope_chain": [
+          "s240"
+        ]
+      },
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": ".gettagconvertlist()",
+      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagconvertlist",
+      "community_name": ".Main"
+    },
+    {
+      "label": ".GetIgnoreDownloadTagList()",
+      "file_type": "code",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L559",
+      "metadata": {
+        "namespace": "PixivBookmarkFilter",
+        "scope_chain": [
+          "s240"
+        ]
+      },
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": ".getignoredownloadtaglist()",
+      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getignoredownloadtaglist",
+      "community_name": ".Main"
+    },
+    {
+      "label": ".GetUserTagListAsync()",
+      "file_type": "code",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L570",
+      "metadata": {
+        "namespace": "PixivBookmarkFilter",
+        "scope_chain": [
+          "s240"
+        ]
+      },
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": ".getusertaglistasync()",
+      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getusertaglistasync",
+      "community_name": ".Main"
+    },
+    {
+      "label": ".FormatColorWrite()",
+      "file_type": "code",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L584",
+      "metadata": {
+        "namespace": "PixivBookmarkFilter",
+        "scope_chain": [
+          "s240"
+        ]
+      },
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": ".formatcolorwrite()",
+      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_formatcolorwrite",
+      "community_name": ".Main"
+    },
+    {
+      "label": "TagSuggestion",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "tagsuggestion",
+      "id": "tagsuggestion",
+      "community_name": "Program"
     }
   ],
   "links": [
@@ -1481,20 +1701,94 @@
       "target": "sdk_microsoft_net_sdk"
     },
     {
-      "relation": "contains",
+      "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L14",
+      "source_location": "L172",
       "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "Task"
+      },
       "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program",
-      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program"
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_downloadpictureasync",
+      "target": "task"
     },
     {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L244",
+      "source_location": "L319",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "Task"
+      },
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getserverdataasync",
+      "target": "task"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L570",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "Task"
+      },
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getusertaglistasync",
+      "target": "task"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L238",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "Task"
+      },
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_loginpixivasync",
+      "target": "task"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "Task"
+      },
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main",
+      "target": "task"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L279",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "Task"
+      },
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_postserverdataasync",
+      "target": "task"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L318",
       "weight": 1.0,
       "context": "field",
       "metadata": {
@@ -1508,313 +1802,21 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L16",
+      "source_location": "L536",
       "weight": 1.0,
-      "context": "field",
+      "context": "parameter_type",
       "metadata": {
-        "ref_token": "string"
+        "ref_token": "Dictionary"
       },
       "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
-      "target": "pixiv_bookmark_filter_program_cs_string"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L143",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
-      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_downloadpictureasync"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L307",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
-      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_formatcolorwrite"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L287",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
-      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getignoredownloadtaglist"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L245",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
-      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getserverdataasync"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L276",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
-      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagconvertlist"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L298",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
-      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getusertaglist"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L197",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
-      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_loginpixiv"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
-      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L224",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
-      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_postserverdataasync"
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getdownloadfolder",
+      "target": "dictionary"
     },
     {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L17",
-      "weight": 1.0,
-      "context": "field",
-      "metadata": {
-        "ref_token": "UserData"
-      },
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
-      "target": "pixiv_bookmark_filter_userdata_pixivbookmarkfilter_userdata"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L114",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main",
-      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_downloadpictureasync"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L34",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main",
-      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_formatcolorwrite"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L22",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main",
-      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getignoredownloadtaglist"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main",
-      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagconvertlist"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L44",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main",
-      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getusertaglist"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L38",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main",
-      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_loginpixiv"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L86",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main",
-      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_postserverdataasync"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L19",
-      "weight": 1.0,
-      "context": "return_type",
-      "metadata": {
-        "ref_token": "Task"
-      },
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main",
-      "target": "task"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L143",
-      "weight": 1.0,
-      "context": "return_type",
-      "metadata": {
-        "ref_token": "Task"
-      },
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_downloadpictureasync",
-      "target": "task"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L245",
-      "weight": 1.0,
-      "context": "return_type",
-      "metadata": {
-        "ref_token": "Task"
-      },
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getserverdataasync",
-      "target": "task"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L224",
-      "weight": 1.0,
-      "context": "return_type",
-      "metadata": {
-        "ref_token": "Task"
-      },
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_postserverdataasync",
-      "target": "task"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L193",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_downloadpictureasync",
-      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_formatcolorwrite"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L267",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getserverdataasync",
-      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_loginpixiv"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L205",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_loginpixiv",
-      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_formatcolorwrite"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L241",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_postserverdataasync",
-      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_formatcolorwrite"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L265",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getserverdataasync",
-      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_formatcolorwrite"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L276",
+      "source_location": "L548",
       "weight": 1.0,
       "context": "return_type",
       "metadata": {
@@ -1825,60 +1827,24 @@
       "target": "dictionary"
     },
     {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L284",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagconvertlist",
-      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_formatcolorwrite"
-    },
-    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L287",
+      "source_location": "L378",
       "weight": 1.0,
-      "context": "return_type",
+      "context": "parameter_type",
       "metadata": {
-        "ref_token": "List"
+        "ref_token": "Dictionary"
       },
       "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getignoredownloadtaglist",
-      "target": "pixiv_bookmark_filter_program_cs_list"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L295",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getignoredownloadtaglist",
-      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_formatcolorwrite"
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagsuggestions",
+      "target": "dictionary"
     },
     {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L298",
-      "weight": 1.0,
-      "context": "return_type",
-      "metadata": {
-        "ref_token": "List"
-      },
-      "confidence_score": 1.0,
-      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getusertaglist",
-      "target": "pixiv_bookmark_filter_program_cs_list"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "Pixiv Bookmark Filter/Program.cs",
-      "source_location": "L307",
+      "source_location": "L584",
       "weight": 1.0,
       "context": "parameter_type",
       "metadata": {
@@ -2192,7 +2158,652 @@
       "confidence_score": 1.0,
       "source": "pixiv_bookmark_filter_userdata",
       "target": "pixiv_bookmark_filter_userdata_pixivbookmarkfilter_userdata"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "string"
+      },
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
+      "target": "string"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "field",
+      "metadata": {
+        "ref_token": "UserData"
+      },
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
+      "target": "userdata"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L536",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "List"
+      },
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getdownloadfolder",
+      "target": "list"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L559",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "List"
+      },
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getignoredownloadtaglist",
+      "target": "list"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L378",
+      "weight": 1.0,
+      "context": "return_type",
+      "metadata": {
+        "ref_token": "List"
+      },
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagsuggestions",
+      "target": "list"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L570",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "metadata": {
+        "ref_token": "List"
+      },
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getusertaglistasync",
+      "target": "list"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L425",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "List"
+      },
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_tryparsesuggestedtags",
+      "target": "list"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_tagsuggestion"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L172",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_downloadpictureasync"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L584",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_formatcolorwrite"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L536",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getdownloadfolder"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L559",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getignoredownloadtaglist"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L514",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getlevenshteindistance"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L319",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getserverdataasync"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L548",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagconvertlist"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L451",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagsimilarity"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L378",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagsuggestions"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L570",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getusertaglistasync"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L508",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_ismeaningfultaglength"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L496",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_isshortacronymprefix"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L238",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_loginpixivasync"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L477",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_normalizetag"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L279",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_postserverdataasync"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L425",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_tryparsesuggestedtags"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L142",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_downloadpictureasync"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_formatcolorwrite"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L133",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getdownloadfolder"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getignoredownloadtaglist"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagconvertlist"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L92",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagsuggestions"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getusertaglistasync"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_loginpixivasync"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L119",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_postserverdataasync"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L114",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_tryparsesuggestedtags"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L230",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_downloadpictureasync",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_formatcolorwrite"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L342",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getserverdataasync",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_loginpixivasync"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L242",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_loginpixivasync",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_formatcolorwrite"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L304",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_postserverdataasync",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_formatcolorwrite"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L340",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getserverdataasync",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_formatcolorwrite"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L378",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "IEnumerable"
+      },
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagsuggestions",
+      "target": "ienumerable"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L392",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagsuggestions",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagsimilarity"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L413",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagsuggestions",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_normalizetag"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L378",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "metadata": {
+        "ref_token": "TagSuggestion"
+      },
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagsuggestions",
+      "target": "tagsuggestion"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L434",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_tryparsesuggestedtags",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_formatcolorwrite"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L425",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "metadata": {
+        "ref_token": "TagSuggestion"
+      },
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_tryparsesuggestedtags",
+      "target": "tagsuggestion"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L473",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagsimilarity",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getlevenshteindistance"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L471",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagsimilarity",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_ismeaningfultaglength"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L463",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagsimilarity",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_isshortacronymprefix"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L453",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagsimilarity",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_normalizetag"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L498",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_isshortacronymprefix",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_normalizetag"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L508",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "Rune"
+      },
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_ismeaningfultaglength",
+      "target": "rune"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L514",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "metadata": {
+        "ref_token": "Rune"
+      },
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getlevenshteindistance",
+      "target": "rune"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L556",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagconvertlist",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_formatcolorwrite"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L567",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getignoredownloadtaglist",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_formatcolorwrite"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pixiv Bookmark Filter/Program.cs",
+      "source_location": "L576",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getusertaglistasync",
+      "target": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_formatcolorwrite"
     }
   ],
-  "hyperedges": []
+  "hyperedges": [],
+  "built_at_commit": "c27a78cfa86cf98f18a071c33031af163c9a904b"
 }

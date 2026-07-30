@@ -1,24 +1,6 @@
 {
   "communities": {
     "0": [
-      "consolecolor",
-      "dictionary",
-      "httpclient",
-      "pixiv_bookmark_filter_program_cs_list",
-      "pixiv_bookmark_filter_program_cs_string",
-      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
-      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_downloadpictureasync",
-      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_formatcolorwrite",
-      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getignoredownloadtaglist",
-      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getserverdataasync",
-      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagconvertlist",
-      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getusertaglist",
-      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_loginpixiv",
-      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main",
-      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_postserverdataasync",
-      "task"
-    ],
-    "1": [
       "bool",
       "double",
       "idisposable",
@@ -35,7 +17,39 @@
       "timer",
       "timespan"
     ],
+    "1": [
+      "consolecolor",
+      "dictionary",
+      "list",
+      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_downloadpictureasync",
+      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_formatcolorwrite",
+      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getdownloadfolder",
+      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getignoredownloadtaglist",
+      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getserverdataasync",
+      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagconvertlist",
+      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getusertaglistasync",
+      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_loginpixivasync",
+      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_main",
+      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_postserverdataasync",
+      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_tryparsesuggestedtags",
+      "task"
+    ],
     "2": [
+      "httpclient",
+      "ienumerable",
+      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
+      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_getlevenshteindistance",
+      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagsimilarity",
+      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_gettagsuggestions",
+      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_ismeaningfultaglength",
+      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_isshortacronymprefix",
+      "pixiv_bookmark_filter_program_pixivbookmarkfilter_program_normalizetag",
+      "rune",
+      "string",
+      "tagsuggestion",
+      "userdata"
+    ],
+    "3": [
       "csharp_namespace:e1602fb0f3e29736",
       "pixiv_bookmark_filter_bookmarktagsmetadata",
       "pixiv_bookmark_filter_bookmarktagsmetadata_cs_list",
@@ -44,18 +58,10 @@
       "pixiv_bookmark_filter_extrametadata",
       "pixiv_bookmark_filter_extrametadata_pixivbookmarkfilter_extrametadata",
       "pixiv_bookmark_filter_program",
+      "pixiv_bookmark_filter_program_pixivbookmarkfilter_tagsuggestion",
+      "pixiv_bookmark_filter_stringencrypt",
       "pixiv_bookmark_filter_userdata",
       "pixiv_bookmark_filter_userdata_pixivbookmarkfilter_userdata"
-    ],
-    "3": [
-      "cookiecontainer",
-      "pixiv_bookmark_filter_stringencrypt",
-      "pixiv_bookmark_filter_stringencrypt_pixivbookmarkfilter_stringencrypt",
-      "pixiv_bookmark_filter_stringencrypt_pixivbookmarkfilter_stringencrypt_aesdecryptbase64",
-      "pixiv_bookmark_filter_stringencrypt_pixivbookmarkfilter_stringencrypt_aesencryptbase64",
-      "pixiv_bookmark_filter_stringencrypt_pixivbookmarkfilter_stringencrypt_loadusercookies",
-      "pixiv_bookmark_filter_stringencrypt_pixivbookmarkfilter_stringencrypt_saveusercookies",
-      "uri"
     ],
     "4": [
       "framework_net8_0",
@@ -68,6 +74,15 @@
       "sdk_microsoft_net_sdk"
     ],
     "5": [
+      "cookiecontainer",
+      "pixiv_bookmark_filter_stringencrypt_pixivbookmarkfilter_stringencrypt",
+      "pixiv_bookmark_filter_stringencrypt_pixivbookmarkfilter_stringencrypt_aesdecryptbase64",
+      "pixiv_bookmark_filter_stringencrypt_pixivbookmarkfilter_stringencrypt_aesencryptbase64",
+      "pixiv_bookmark_filter_stringencrypt_pixivbookmarkfilter_stringencrypt_loadusercookies",
+      "pixiv_bookmark_filter_stringencrypt_pixivbookmarkfilter_stringencrypt_saveusercookies",
+      "uri"
+    ],
+    "6": [
       "pixiv_bookmark_filter_illustmetadata",
       "pixiv_bookmark_filter_illustmetadata_cs_datetime",
       "pixiv_bookmark_filter_illustmetadata_cs_list",
@@ -76,7 +91,7 @@
       "pixiv_bookmark_filter_illustmetadata_pixivbookmarkfilter_tag",
       "pixiv_bookmark_filter_illustmetadata_pixivbookmarkfilter_urls"
     ],
-    "6": [
+    "7": [
       "pixiv_bookmark_filter_bookmarksmetadata",
       "pixiv_bookmark_filter_bookmarksmetadata_cs_datetime",
       "pixiv_bookmark_filter_bookmarksmetadata_cs_list",
@@ -84,55 +99,61 @@
       "pixiv_bookmark_filter_bookmarksmetadata_pixivbookmarkfilter_bookmarksmetadata",
       "pixiv_bookmark_filter_bookmarksmetadata_pixivbookmarkfilter_work"
     ],
-    "7": [
+    "8": [
       "pixiv_bookmark_filter_obj_debug_net8_0_netcoreapp_version_v8_0_assemblyattributes"
     ],
-    "8": [
+    "9": [
       "pixiv_bookmark_filter_obj_debug_netframework_version_v4_5_assemblyattributes"
     ],
-    "9": [
+    "10": [
       "pixiv_bookmark_filter_obj_debug_netframework_version_v4_8_assemblyattributes"
     ],
-    "10": [
+    "11": [
       "pixiv_bookmark_filter_obj_debug_temporarygeneratedfile_036c0b5b_1481_4323_8d20_8f5adcb23d92"
     ],
-    "11": [
+    "12": [
       "pixiv_bookmark_filter_obj_debug_temporarygeneratedfile_5937a670_0e60_4077_877b_f7221da3dda1"
     ],
-    "12": [
+    "13": [
       "pixiv_bookmark_filter_obj_debug_temporarygeneratedfile_e7a71f73_0f8d_4b9b_b56e_8e70b10bc5d3"
     ],
-    "13": [
+    "14": [
       "pixiv_bookmark_filter_obj_release_net8_0_netcoreapp_version_v8_0_assemblyattributes"
     ],
-    "14": [
+    "15": [
       "pixiv_bookmark_filter_obj_release_netframework_version_v4_5_assemblyattributes"
     ],
-    "15": [
+    "16": [
       "pixiv_bookmark_filter_obj_release_netframework_version_v4_8_assemblyattributes"
     ],
-    "16": [
+    "17": [
       "pixiv_bookmark_filter_obj_release_temporarygeneratedfile_036c0b5b_1481_4323_8d20_8f5adcb23d92"
     ],
-    "17": [
+    "18": [
       "pixiv_bookmark_filter_obj_release_temporarygeneratedfile_5937a670_0e60_4077_877b_f7221da3dda1"
     ],
-    "18": [
+    "19": [
       "pixiv_bookmark_filter_obj_release_temporarygeneratedfile_e7a71f73_0f8d_4b9b_b56e_8e70b10bc5d3"
     ],
-    "19": [
+    "20": [
+      "pixiv_bookmark_filter_program_cs_list"
+    ],
+    "21": [
+      "pixiv_bookmark_filter_program_cs_string"
+    ],
+    "22": [
       "pixiv_bookmark_filter_properties_assemblyinfo"
     ]
   },
   "cohesion": {
-    "0": 0.275,
-    "1": 0.1619047619047619,
-    "2": 0.2222222222222222,
-    "3": 0.2857142857142857,
+    "0": 0.1619047619047619,
+    "1": 0.29523809523809524,
+    "2": 0.2564102564102564,
+    "3": 0.18181818181818182,
     "4": 0.25,
-    "5": 0.42857142857142855,
-    "6": 0.5333333333333333,
-    "7": 1.0,
+    "5": 0.3333333333333333,
+    "6": 0.42857142857142855,
+    "7": 0.5333333333333333,
     "8": 1.0,
     "9": 1.0,
     "10": 1.0,
@@ -144,18 +165,21 @@
     "16": 1.0,
     "17": 1.0,
     "18": 1.0,
-    "19": 1.0
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0
   },
   "gods": [
+    {
+      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
+      "label": "Program",
+      "degree": 21
+    },
     {
       "id": "pixiv_bookmark_filter_progressbar_progressbar",
       "label": "ProgressBar",
       "degree": 14
-    },
-    {
-      "id": "pixiv_bookmark_filter_program_pixivbookmarkfilter_program",
-      "label": "Program",
-      "degree": 13
     },
     {
       "id": "csharp_namespace:e1602fb0f3e29736",
@@ -198,34 +222,27 @@
       "degree": 2
     }
   ],
-  "surprises": [
-    {
-      "source": "Program",
-      "target": "UserData",
-      "source_files": [
-        "Pixiv Bookmark Filter/Program.cs",
-        "Pixiv Bookmark Filter/UserData.cs"
-      ],
-      "confidence": "EXTRACTED",
-      "relation": "references",
-      "why": "bridges separate communities; peripheral node `UserData` unexpectedly reaches hub `Program`"
-    }
-  ],
+  "surprises": [],
   "questions": [
     {
       "type": "bridge_node",
-      "question": "Why does `PixivBookmarkFilter` connect `Community 2` to `Community 3`, `Community 5`, `Community 6`?",
-      "why": "High betweenness centrality (0.239) - this node is a cross-community bridge."
+      "question": "Why does `PixivBookmarkFilter` connect `PixivBookmarkFilter` to `IllustMetadata.cs`, `Work`?",
+      "why": "High betweenness centrality (0.259) - this node is a cross-community bridge."
     },
     {
       "type": "bridge_node",
-      "question": "Why does `Program` connect `Community 0` to `Community 2`?",
-      "why": "High betweenness centrality (0.153) - this node is a cross-community bridge."
+      "question": "Why does `Program` connect `Program` to `.Main`, `PixivBookmarkFilter`?",
+      "why": "High betweenness centrality (0.228) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `StringEncrypt` connect `StringEncrypt` to `PixivBookmarkFilter`?",
+      "why": "High betweenness centrality (0.070) - this node is a cross-community bridge."
     },
     {
       "type": "isolated_nodes",
       "question": "What connects `ExtraMetaData`, `ResultBody`, `net8.0` to the rest of the system?",
-      "why": "9 weakly-connected nodes found - possible documentation gaps or missing edges."
+      "why": "11 weakly-connected nodes found - possible documentation gaps or missing edges."
     }
   ]
 }
