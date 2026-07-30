@@ -20,7 +20,7 @@
 - `TagConvertList.json` and `IgnoreDownloadTag.json` are loaded only from `AppDomain.CurrentDomain.BaseDirectory`; when absent they silently become empty collections. For `dotnet run`, that directory is `PixivBookmarkFilter/bin/Debug/net8.0/`.
 - `TagSuggestionIndex.db` is created beside the executable. Changing `embeddingModel` intentionally clears indexed documents and the synchronization anchor.
 - `UserData.json` contains the Pixiv `PHPSESSID` and CSRF token, is written relative to the process working directory, and is not ignored by the current `.gitignore`. Never stage or commit it.
-- The default LM Studio endpoint is `http://localhost:1234/v1`. LM Studio failures fall back to OpenAI or lexical matching; OpenAI is active only when enabled and an API key is present.
+- The default Embedding model endpoint is `http://localhost:1234/v1`. Embedding model failures fall back to OpenAI or lexical matching; OpenAI is active only when enabled and an API key is present.
 - Successful runs download to `Desktop/Pixiv收藏分類儲存/`. Image download must complete before the app adds bookmark tags.
 
 ## Behavioral Invariants
@@ -33,4 +33,4 @@
 ## Code And Tests
 
 - Match the existing C# style: explicit `using` directives, block-scoped namespaces, four-space indentation, and no nullable-reference annotations unless the project settings change.
-- Unit tests are offline: HTTP is faked and SQLite tests use per-test temporary databases. External Pixiv, LM Studio, and OpenAI smoke tests are separate manual checks.
+- Unit tests are offline: HTTP is faked and SQLite tests use per-test temporary databases. External Pixiv, Embedding model, and OpenAI smoke tests are separate manual checks.

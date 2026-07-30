@@ -135,6 +135,35 @@ namespace PixivBookmarkFilter.Tests
             Assert.Equal("Fate", Assert.Single(suggestions).Tag);
         }
 
+        [Fact]
+        public async Task EmbeddingAvailabilityCheck_RequestsEmbeddingAndReturnsDimension()
+        {
+            RecordingHandler handler = new RecordingHandler("""
+            {
+              "data": [
+                {
+                  "index": 0,
+                  "embedding": [0.1, 0.2, 0.3]
+                }
+              ]
+            }
+            """);
+            RagSettings settings = new RagSettings
+            {
+                EmbeddingModelBaseUrl = "http://localhost:1234/v1",
+                EmbeddingModel = "text-embedding-bge-m3"
+            };
+
+            using EmbeddingModelClient client = new EmbeddingModelClient(settings, handler);
+            int dimension = await client.VerifyAvailabilityAsync();
+
+            Assert.Equal(3, dimension);
+            Assert.Equal("http://localhost:1234/v1/embeddings", handler.RequestUri.ToString());
+            JObject request = JObject.Parse(handler.RequestBody);
+            Assert.Equal("text-embedding-bge-m3", request.Value<string>("model"));
+            Assert.Single(request["input"]);
+        }
+
         private static RetrievedBookmark CreateRetrieved(string title, double similarity, params string[] tags)
         {
             return new RetrievedBookmark

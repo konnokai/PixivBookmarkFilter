@@ -9,7 +9,7 @@ namespace PixivBookmarkFilter
     internal sealed class TagSuggestionWorkflow : IDisposable
     {
         private RagSettings settings;
-        private LmStudioEmbeddingClient embeddingClient;
+        private EmbeddingModelClient embeddingClient;
         private OpenAiTagSuggestionClient openAiClient;
         private RagTagSuggestionService suggestionService;
 
@@ -18,7 +18,7 @@ namespace PixivBookmarkFilter
             try
             {
                 settings = RagSettings.Load();
-                embeddingClient = new LmStudioEmbeddingClient(settings);
+                embeddingClient = new EmbeddingModelClient(settings);
                 openAiClient = new OpenAiTagSuggestionClient(settings);
                 BookmarkTagIndex index = null;
 
@@ -30,6 +30,25 @@ namespace PixivBookmarkFilter
                 catch (Exception ex)
                 {
                     ConsoleOutput.Write($"初始化 RAG 索引失敗: {ex.Message}", ConsoleColor.DarkYellow);
+                }
+
+                if (index != null)
+                {
+                    try
+                    {
+                        ConsoleOutput.Write("確認 Embedding 模型端點", ConsoleColor.DarkYellow);
+                        int embeddingDimension = await embeddingClient.VerifyAvailabilityAsync();
+                        ConsoleOutput.Write(
+                            $"Embedding 模型端點可用，向量維度 {embeddingDimension}",
+                            ConsoleColor.Green);
+                    }
+                    catch (Exception ex)
+                    {
+                        ConsoleOutput.Write(
+                            $"Embedding 模型端點無法使用，已略過歷史收藏查詢: {ex.Message}",
+                            ConsoleColor.DarkYellow);
+                        index = null;
+                    }
                 }
 
                 suggestionService = new RagTagSuggestionService(

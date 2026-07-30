@@ -5,7 +5,7 @@
 Replace the lexical-only tag suggestions with a personalized, layered recommendation flow:
 
 1. Automatically use exact matches between Pixiv tags and the user's bookmark tags.
-2. Search previously categorized bookmarks with LM Studio and `text-embedding-bge-m3`.
+2. Search previously categorized bookmarks with an Embedding model and `text-embedding-bge-m3`.
 3. Show at most five RAG suggestions plus a separate `#AI` action.
 4. Call OpenAI only when RAG has no result or the user explicitly enters `#AI`.
 5. Fall back to the existing lexical matcher when OpenAI has no valid result.
@@ -14,27 +14,29 @@ All generated suggestions must be validated against the latest `userTagList`.
 
 ## Configuration
 
-- Read LM Studio and OpenAI settings from `RagSettings.json`.
+- Read Embedding model and OpenAI settings from `RagSettings.json`.
 - Read the OpenAI API Key from the same settings file.
 - Read a configurable OpenAI-compatible API BaseAddress from `openAiBaseUrl`.
 - Exclude `RagSettings.json` from source control.
 - Commit `RagSettings.example.json` without a key.
-- Default LM Studio endpoint: `http://localhost:1234/v1`.
+- Default Embedding model endpoint: `http://localhost:1234/v1`.
 - Default embedding model: `text-embedding-bge-m3`.
 - Default OpenAI model: `gpt-5.6-luna`.
 
 ## RAG Index
 
 1. Persist the newest observed bookmark work ID as the incremental synchronization anchor.
-2. On startup, fetch bookmark pages from newest to oldest and stop when the anchor or an already indexed work is reached.
-3. Fetch all public bookmark pages only for the initial build or when no synchronization boundary can be found.
-4. Use the work title and original Pixiv tags as embedding input.
-5. Use existing bookmark tags as recommendation labels, never as embedding input.
-6. Store metadata and float vectors in a local SQLite cache and upsert only the incremental result set.
-7. Re-embed only new or changed works.
-8. Remove stale cache entries after a complete scan and invalidate vectors plus the synchronization anchor when the embedding model changes.
-9. Load vectors into memory and search with cosine similarity.
-10. Rank labels with similarity-weighted voting and return at most five suggestions.
+2. Verify the configured Embedding model `/embeddings` endpoint with a minimal request before fetching any bookmark history.
+3. Skip bookmark history retrieval and fall back to OpenAI or lexical matching when the embedding endpoint is unavailable.
+4. On startup, fetch bookmark pages from newest to oldest and stop when the anchor or an already indexed work is reached.
+5. Fetch all public bookmark pages only for the initial build or when no synchronization boundary can be found.
+6. Use the work title and original Pixiv tags as embedding input.
+7. Use existing bookmark tags as recommendation labels, never as embedding input.
+8. Store metadata and float vectors in a local SQLite cache and upsert only the incremental result set.
+9. Re-embed only new or changed works.
+10. Remove stale cache entries after a complete scan and invalidate vectors plus the synchronization anchor when the embedding model changes.
+11. Load vectors into memory and search with cosine similarity.
+12. Rank labels with similarity-weighted voting and return at most five suggestions.
 
 RAG is considered to have no result when no retrieved work reaches `minimumSimilarity`.
 
@@ -82,4 +84,4 @@ After the user categorizes a work, immediately add or update it in the local ind
 6. Test lexical fallback when OpenAI fails.
 7. Test SQLite insert, incremental update, synchronization anchor persistence, reload, stale removal, and model invalidation.
 8. Run `dotnet test` and `dotnet build -c Release`.
-9. Run an LM Studio smoke test when the local service is available.
+9. Run an Embedding model smoke test when the configured service is available.

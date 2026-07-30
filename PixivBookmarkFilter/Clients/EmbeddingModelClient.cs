@@ -14,14 +14,14 @@ namespace PixivBookmarkFilter
         Task<IReadOnlyList<float[]>> GenerateEmbeddingsAsync(IReadOnlyList<string> inputs, CancellationToken cancellationToken = default);
     }
 
-    internal sealed class LmStudioEmbeddingClient : IEmbeddingClient, IDisposable
+    internal sealed class EmbeddingModelClient : IEmbeddingClient, IDisposable
     {
         private readonly HttpClient httpClient;
         private readonly string model;
 
-        public LmStudioEmbeddingClient(RagSettings settings, HttpMessageHandler handler = null)
+        public EmbeddingModelClient(RagSettings settings, HttpMessageHandler handler = null)
         {
-            string baseUrl = settings.LmStudioBaseUrl.TrimEnd('/') + "/";
+            string baseUrl = settings.EmbeddingModelBaseUrl.TrimEnd('/') + "/";
             httpClient = handler == null ? new HttpClient() : new HttpClient(handler);
             httpClient.BaseAddress = new Uri(baseUrl);
             httpClient.Timeout = TimeSpan.FromMinutes(5);
@@ -45,7 +45,7 @@ namespace PixivBookmarkFilter
 
             EmbeddingResponse result = JsonConvert.DeserializeObject<EmbeddingResponse>(responseJson);
             if (result?.Data == null || result.Data.Count != inputs.Count)
-                throw new InvalidOperationException("LM Studio Embedding 回傳數量不符");
+                throw new InvalidOperationException("Embedding 模型回傳數量不符");
 
             List<float[]> embeddings = result.Data
                 .OrderBy((item) => item.Index)
@@ -53,11 +53,19 @@ namespace PixivBookmarkFilter
                 .ToList();
 
             if (embeddings.Any((embedding) => embedding == null || embedding.Length == 0))
-                throw new InvalidOperationException("LM Studio 回傳空白 Embedding");
+                throw new InvalidOperationException("Embedding 模型回傳空白 Embedding");
             if (embeddings.Select((embedding) => embedding.Length).Distinct().Count() != 1)
-                throw new InvalidOperationException("LM Studio 回傳的 Embedding 維度不一致");
+                throw new InvalidOperationException("Embedding 模型回傳的 Embedding 維度不一致");
 
             return embeddings;
+        }
+
+        public async Task<int> VerifyAvailabilityAsync(CancellationToken cancellationToken = default)
+        {
+            IReadOnlyList<float[]> embeddings = await GenerateEmbeddingsAsync(
+                new[] { "Embedding endpoint availability check" },
+                cancellationToken);
+            return embeddings[0].Length;
         }
 
         public void Dispose()

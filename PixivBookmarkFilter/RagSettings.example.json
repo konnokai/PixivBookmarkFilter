@@ -1,5 +1,5 @@
 {
-  "lmStudioBaseUrl": "http://localhost:1234/v1",
+  "embeddingModelBaseUrl": "http://localhost:1234/v1",
   "embeddingModel": "text-embedding-bge-m3",
   "retrievalTopK": 20,
   "minimumSimilarity": 0.6,

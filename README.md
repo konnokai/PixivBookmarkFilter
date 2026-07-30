@@ -7,7 +7,7 @@ PixivBookmarkFilter 是一個 .NET 8 主控台工具，用來整理尚未分類�
 ## 功能
 
 - 自動套用作品原始標籤中，已存在於個人收藏標籤清單的項目。
-- 使用 LM Studio Embedding 與本機 SQLite 索引，從過往已分類收藏提供 RAG 標籤建議。
+- 使用 Embedding 模型與本機 SQLite 索引，從過往已分類收藏提供 RAG 標籤建議。
 - RAG 沒有結果時，可改由 OpenAI 從現有收藏標籤中挑選建議。
 - AI 服務不可用時，仍可使用字串相似度建議或手動輸入標籤。
 - 下載單張與多頁作品原圖，並依收藏標籤分資料夾存放。
@@ -18,7 +18,7 @@ PixivBookmarkFilter 是一個 .NET 8 主控台工具，用來整理尚未分類�
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
 - 可正常登入的 Pixiv 帳號
 - Pixiv 的 `PHPSESSID` 與 `X_CSRF_TOKEN`
-- 選用：提供 OpenAI 相容 Embedding API 的 LM Studio
+- 選用：提供 OpenAI 相容 Embedding API 的模型服務
 - 選用：OpenAI API Key，或支援 Chat Completions API 的相容服務
 
 ## 快速開始
@@ -67,7 +67,7 @@ RAG 與 OpenAI 最多各顯示 5 個建議，而且只會回傳目前收藏標�
 
 ```json
 {
-  "lmStudioBaseUrl": "http://localhost:1234/v1",
+  "embeddingModelBaseUrl": "http://localhost:1234/v1",
   "embeddingModel": "text-embedding-bge-m3",
   "retrievalTopK": 20,
   "minimumSimilarity": 0.6,
@@ -82,7 +82,7 @@ RAG 與 OpenAI 最多各顯示 5 個建議，而且只會回傳目前收藏標�
 
 | 設定 | 說明 |
 | --- | --- |
-| `lmStudioBaseUrl` | LM Studio 的 OpenAI 相容 API 位址 |
+| `embeddingModelBaseUrl` | Embedding 模型的 OpenAI 相容 API 位址 |
 | `embeddingModel` | Embedding 模型名稱 |
 | `retrievalTopK` | 每次 RAG 搜尋最多取回的收藏數量 |
 | `minimumSimilarity` | RAG 搜尋的最低餘弦相似度，範圍為 `-1` 到 `1` |
@@ -93,7 +93,7 @@ RAG 與 OpenAI 最多各顯示 5 個建議，而且只會回傳目前收藏標�
 | `openAiReasoningEffort` | 傳給模型的 reasoning effort |
 | `maxSuggestions` | 建議數量，上限固定為 5 |
 
-OpenAI 只有在 `openAiEnabled` 為 `true` 且 `openAiApiKey` 不為空時才會啟用。LM Studio 或 OpenAI 請求失敗時，程式會回到其他建議方式，不會因 AI 服務無法使用而中止手動分類。
+OpenAI 只有在 `openAiEnabled` 為 `true` 且 `openAiApiKey` 不為空時才會啟用。Embedding 模型或 OpenAI 請求失敗時，程式會回到其他建議方式，不會因 AI 服務無法使用而中止手動分類。
 
 ### 本機索引
 
@@ -151,14 +151,14 @@ dotnet test "PixivBookmarkFilter.sln"
 dotnet build "PixivBookmarkFilter.sln" -c Release
 ```
 
-測試不會連線到 Pixiv、LM Studio 或 OpenAI。HTTP 呼叫使用假的處理器，SQLite 測試則使用每次測試建立的暫存資料庫。
+測試不會連線到 Pixiv、Embedding 模型服務或 OpenAI。HTTP 呼叫使用假的處理器，SQLite 測試則使用每次測試建立的暫存資料庫。
 
 ## 專案結構
 
 ```text
 PixivBookmarkFilter/
 ├─ Application/    主流程與收藏處理
-├─ Clients/        Pixiv、LM Studio、OpenAI HTTP 用戶端
+├─ Clients/        Pixiv、Embedding 模型、OpenAI HTTP 用戶端
 ├─ Configuration/  本機與 RAG 設定
 ├─ Parsing/        主控台輸入解析
 ├─ Services/       標籤建議與圖片下載
