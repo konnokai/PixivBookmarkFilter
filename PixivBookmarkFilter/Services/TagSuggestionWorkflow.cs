@@ -13,7 +13,7 @@ namespace PixivBookmarkFilter
         private OpenAiTagSuggestionClient openAiClient;
         private RagTagSuggestionService suggestionService;
 
-        public async Task InitializeAsync(PixivApiClient pixivApiClient)
+        public async Task InitializeAsync(PixivApiClient pixivApiClient, List<string> userTagList)
         {
             try
             {
@@ -60,13 +60,34 @@ namespace PixivBookmarkFilter
 
                 try
                 {
-                    bool hasExistingIndex = index.Count > 0;
-                    ConsoleOutput.Write(
-                        hasExistingIndex ? "增量同步歷史收藏 RAG 索引" : "首次建立歷史收藏 RAG 索引",
-                        ConsoleColor.DarkYellow);
-                    BookmarkHistorySyncResult history = await pixivApiClient.GetTaggedBookmarkHistoryAsync(
-                        index.SyncAnchorWorkId,
-                        index.WorkIds);
+                    // 有錨點時只需往回讀到錨點；沒有錨點就每個標籤各抽最近幾筆，不掃整個收藏歷史
+                    bool canSyncIncrementally = index.Count > 0 && !string.IsNullOrWhiteSpace(index.SyncAnchorWorkId);
+                    BookmarkHistorySyncResult history;
+                    if (canSyncIncrementally)
+                    {
+                        ConsoleOutput.Write("增量同步歷史收藏 RAG 索引", ConsoleColor.DarkYellow);
+                        history = await pixivApiClient.GetTaggedBookmarkHistoryAsync(
+                            index.SyncAnchorWorkId,
+                            index.WorkIds,
+                            (fetched, total) => ConsoleOutput.Write(
+                                total.HasValue ? $"讀取收藏: {fetched}/{total}" : $"讀取收藏: {fetched}",
+                                ConsoleColor.DarkYellow));
+                    }
+                    else
+                    {
+                        ConsoleOutput.Write(
+                            $"建立歷史收藏 RAG 索引，每個標籤取最近 {settings.IndexSamplesPerTag} 筆",
+                            ConsoleColor.DarkYellow);
+                        history = await pixivApiClient.GetTagSampledBookmarkHistoryAsync(
+                            userTagList,
+                            settings.IndexSamplesPerTag,
+                            (completed, total) =>
+                            {
+                                if (completed % 10 == 0 || completed == total)
+                                    ConsoleOutput.Write($"讀取標籤: {completed}/{total}", ConsoleColor.DarkYellow);
+                            });
+                    }
+
                     if (history == null) return;
 
                     Action<int, int> reportProgress = (completed, total) =>

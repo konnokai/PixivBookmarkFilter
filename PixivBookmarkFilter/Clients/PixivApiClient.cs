@@ -15,6 +15,8 @@ namespace PixivBookmarkFilter
     {
         private const string UserDataFileName = "UserData.json";
         private const string AjaxBaseUrl = "https://www.pixiv.net/ajax/";
+        // 標籤清單 API 會回傳這個虛擬標籤，用 tag= 查它拿到的是沒有收藏標籤的作品，不是真的收藏標籤
+        private const string UnclassifiedTag = "未分類";
 
         private readonly HttpClient getClient;
         private readonly HttpClient postClient;
@@ -35,6 +37,14 @@ namespace PixivBookmarkFilter
             postClient.DefaultRequestHeaders.Add(
                 "User-Agent",
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36");
+        }
+
+        internal PixivApiClient(HttpMessageHandler handler, UserData userData)
+        {
+            getClient = new HttpClient(handler, false);
+            postClient = new HttpClient(handler, false);
+            this.userData = userData;
+            savedUserDataLoaded = true;
         }
 
         public async Task<bool> LoginAsync()
@@ -78,10 +88,10 @@ namespace PixivBookmarkFilter
             return false;
         }
 
-        public Task<BookmarksMetadata> GetBookmarksAsync(int offset, int limit = 50)
+        public Task<BookmarksMetadata> GetBookmarksAsync(int offset, int limit = 50, string tag = "")
         {
             return GetAsync<BookmarksMetadata>(
-                $"user/{UserId}/illusts/bookmarks?tag=&offset={offset}&limit={limit}&rest=show");
+                $"user/{UserId}/illusts/bookmarks?tag={Uri.EscapeDataString(tag ?? "")}&offset={offset}&limit={limit}&rest=show");
         }
 
         public Task<IllustMetadata> GetIllustAsync(string id)
@@ -99,12 +109,77 @@ namespace PixivBookmarkFilter
                 return null;
             }
 
-            return result.Public.Select((item) => item.Tag).ToList();
+            return result.Public
+                .Select((item) => item.Tag)
+                .Where((tag) => tag != UnclassifiedTag)
+                .ToList();
+        }
+
+        public async Task<BookmarkHistorySyncResult> GetTagSampledBookmarkHistoryAsync(
+            IEnumerable<string> userTags,
+            int samplesPerTag,
+            Action<int, int> reportProgress = null)
+        {
+            const int pageSize = 50;
+
+            // 錨點要在抽樣前先取，抽樣期間新增的收藏才會被下次增量同步補到
+            BookmarksMetadata latest = await GetBookmarksAsync(0, 1);
+            if (latest?.Works == null) return null;
+
+            List<string> tags = (userTags ?? Array.Empty<string>())
+                .Where((tag) => !string.IsNullOrWhiteSpace(tag) && tag != UnclassifiedTag)
+                .Distinct(StringComparer.Ordinal)
+                .ToList();
+            HashSet<string> seenWorkIds = new HashSet<string>(StringComparer.Ordinal);
+            List<BookmarkTagDocumentInput> history = new List<BookmarkTagDocumentInput>();
+            int fetchedWorkCount = 0;
+
+            for (int tagIndex = 0; tagIndex < tags.Count; tagIndex++)
+            {
+                int offset = 0;
+                while (offset < samplesPerTag)
+                {
+                    int limit = Math.Min(pageSize, samplesPerTag - offset);
+                    BookmarksMetadata metadata = await GetBookmarksAsync(offset, limit, tags[tagIndex]);
+                    if (metadata?.Works == null) return null;
+                    fetchedWorkCount += metadata.Works.Count;
+
+                    foreach (Work work in metadata.Works)
+                    {
+                        if (work == null || string.IsNullOrWhiteSpace(work.Id) || !seenWorkIds.Add(work.Id)) continue;
+
+                        List<string> assignedTags = GetBookmarkTags(metadata.BookmarkTags, work.BookmarkData?.Id);
+                        if (assignedTags.Count == 0) continue;
+
+                        history.Add(new BookmarkTagDocumentInput
+                        {
+                            WorkId = work.Id,
+                            Title = work.Title,
+                            SourceTags = work.Tags ?? new List<string>(),
+                            AssignedTags = assignedTags
+                        });
+                    }
+
+                    if (metadata.Works.Count < limit) break;
+                    offset += metadata.Works.Count;
+                }
+
+                reportProgress?.Invoke(tagIndex + 1, tags.Count);
+            }
+
+            return new BookmarkHistorySyncResult
+            {
+                Documents = history,
+                LatestWorkId = latest.Works.FirstOrDefault()?.Id,
+                IsCompleteSnapshot = true,
+                FetchedWorkCount = fetchedWorkCount
+            };
         }
 
         public async Task<BookmarkHistorySyncResult> GetTaggedBookmarkHistoryAsync(
             string syncAnchorWorkId,
-            IEnumerable<string> knownWorkIds)
+            IEnumerable<string> knownWorkIds,
+            Action<int, int?> reportProgress = null)
         {
             const int pageSize = 50;
             int offset = 0;
@@ -123,6 +198,7 @@ namespace PixivBookmarkFilter
                 if (metadata?.Works == null) return null;
                 if (metadata.Works.Count == 0) break;
                 fetchedWorkCount += metadata.Works.Count;
+                reportProgress?.Invoke(fetchedWorkCount, metadata.Total);
 
                 int newWorkCount = 0;
                 foreach (Work work in metadata.Works)

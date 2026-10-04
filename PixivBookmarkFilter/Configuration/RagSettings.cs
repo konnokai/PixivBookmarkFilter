@@ -17,6 +17,7 @@ namespace PixivBookmarkFilter
         public string OpenAiModel { get; set; } = "gpt-5.6-luna";
         public string OpenAiReasoningEffort { get; set; } = "low";
         public int MaxSuggestions { get; set; } = 5;
+        public int IndexSamplesPerTag { get; set; } = 100;
 
         public static RagSettings Load()
         {
@@ -55,6 +56,7 @@ namespace PixivBookmarkFilter
                 throw new InvalidDataException("RagSettings.json 的 openAiBaseUrl 格式錯誤");
             if (MaxSuggestions <= 0) MaxSuggestions = 5;
             MaxSuggestions = Math.Min(MaxSuggestions, 5);
+            if (IndexSamplesPerTag <= 0) IndexSamplesPerTag = 100;
             if (string.IsNullOrWhiteSpace(OpenAiModel)) OpenAiModel = "gpt-5.6-luna";
         }
     }

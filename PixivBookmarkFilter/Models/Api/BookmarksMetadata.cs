@@ -90,6 +90,9 @@ namespace PixivBookmarkFilter
 
         [JsonProperty("works")]
         public List<Work> Works { get; set; }
+
+        [JsonProperty("total")]
+        public int? Total { get; set; }
     }
 
 }

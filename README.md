@@ -77,7 +77,8 @@ RAG 與 OpenAI 最多各顯示 5 個建議，而且只會回傳目前收藏標�
   "openAiApiKey": "",
   "openAiModel": "gpt-5.6-luna",
   "openAiReasoningEffort": "low",
-  "maxSuggestions": 5
+  "maxSuggestions": 5,
+  "indexSamplesPerTag": 100
 }
 ```
 
@@ -94,6 +95,7 @@ RAG 與 OpenAI 最多各顯示 5 個建議，而且只會回傳目前收藏標�
 | `openAiModel` | 使用的聊天模型 |
 | `openAiReasoningEffort` | 傳給模型的 reasoning effort |
 | `maxSuggestions` | 建議數量，上限固定為 5 |
+| `indexSamplesPerTag` | 建立 RAG 索引時，每個收藏標籤最多讀取的最近收藏數量 |
 
 OpenAI 只有在 `openAiEnabled` 為 `true` 且 `openAiApiKey` 不為空時才會啟用。Embedding 模型或 OpenAI 請求失敗時，程式會回到其他建議方式，不會因 AI 服務無法使用而中止手動分類。
 
@@ -101,7 +103,9 @@ OpenAI 只有在 `openAiEnabled` 為 `true` 且 `openAiApiKey` 不為空時才�
 
 RAG 索引存放在執行檔旁的 `TagSuggestionIndex.db`。Embedding 內容只包含作品標題與 Pixiv 原始標籤；使用者指定的收藏標籤只作為推薦答案，不會放進 Embedding 文字。
 
-修改 `embeddingModel` 後，程式會自動清空既有向量與同步進度，並用新模型重建索引。
+第一次建立索引時，程式不會掃過全部收藏，而是對每個收藏標籤各讀取最近 `indexSamplesPerTag` 筆（預設 100），只收錄已有收藏標籤的作品。之後啟動只會往回讀到上次同步的位置，補上新的收藏。
+
+修改 `embeddingModel` 後，程式會自動清空既有向量與同步進度，並用新模型重建索引。想改用新的 `indexSamplesPerTag` 重建索引時，刪除 `TagSuggestionIndex.db` 再執行即可。
 
 ## 下載資料夾設定
 

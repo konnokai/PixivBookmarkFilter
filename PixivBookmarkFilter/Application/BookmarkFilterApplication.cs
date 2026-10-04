@@ -49,7 +49,7 @@ namespace PixivBookmarkFilter
             List<string> tagList = await pixivApiClient.GetUserTagListAsync();
             if (tagList == null) return;
 
-            await tagSuggestionWorkflow.InitializeAsync(pixivApiClient);
+            await tagSuggestionWorkflow.InitializeAsync(pixivApiClient, tagList);
 
             const int offset = 0;
             while (true)

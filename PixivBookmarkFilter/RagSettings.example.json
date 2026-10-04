@@ -9,5 +9,6 @@
   "openAiApiKey": "",
   "openAiModel": "gpt-5.6-luna",
   "openAiReasoningEffort": "low",
-  "maxSuggestions": 5
+  "maxSuggestions": 5,
+  "indexSamplesPerTag": 100
 }
