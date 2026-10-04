@@ -164,6 +164,23 @@ namespace PixivBookmarkFilter.Tests
             Assert.Single(request["input"]);
         }
 
+        [Fact]
+        public async Task EmbeddingClient_SendsBearerTokenOnlyWhenApiKeyIsSet()
+        {
+            const string responseBody = """{"data":[{"index":0,"embedding":[0.1]}]}""";
+
+            RecordingHandler withKey = new RecordingHandler(responseBody);
+            using (EmbeddingModelClient client = new EmbeddingModelClient(new RagSettings { EmbeddingModelApiKey = "omlx-key" }, withKey))
+                await client.VerifyAvailabilityAsync();
+            Assert.Equal("Bearer", withKey.AuthorizationScheme);
+            Assert.Equal("omlx-key", withKey.AuthorizationParameter);
+
+            RecordingHandler withoutKey = new RecordingHandler(responseBody);
+            using (EmbeddingModelClient client = new EmbeddingModelClient(new RagSettings(), withoutKey))
+                await client.VerifyAvailabilityAsync();
+            Assert.Null(withoutKey.AuthorizationScheme);
+        }
+
         private static RetrievedBookmark CreateRetrieved(string title, double similarity, params string[] tags)
         {
             return new RetrievedBookmark

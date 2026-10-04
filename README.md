@@ -68,6 +68,7 @@ RAG 與 OpenAI 最多各顯示 5 個建議，而且只會回傳目前收藏標�
 ```json
 {
   "embeddingModelBaseUrl": "http://localhost:1234/v1",
+  "embeddingModelApiKey": "",
   "embeddingModel": "text-embedding-bge-m3",
   "retrievalTopK": 20,
   "minimumSimilarity": 0.6,
@@ -83,6 +84,7 @@ RAG 與 OpenAI 最多各顯示 5 個建議，而且只會回傳目前收藏標�
 | 設定 | 說明 |
 | --- | --- |
 | `embeddingModelBaseUrl` | Embedding 模型的 OpenAI 相容 API 位址 |
+| `embeddingModelApiKey` | Embedding 服務的 API Key（例如 omlx 要求驗證時填入）。留空就不送 `Authorization` 標頭 |
 | `embeddingModel` | Embedding 模型名稱 |
 | `retrievalTopK` | 每次 RAG 搜尋最多取回的收藏數量 |
 | `minimumSimilarity` | RAG 搜尋的最低餘弦相似度，範圍為 `-1` 到 `1` |

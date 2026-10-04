@@ -7,6 +7,7 @@ namespace PixivBookmarkFilter
     internal sealed class RagSettings
     {
         public string EmbeddingModelBaseUrl { get; set; } = "http://localhost:1234/v1";
+        public string EmbeddingModelApiKey { get; set; } = "";
         public string EmbeddingModel { get; set; } = "text-embedding-bge-m3";
         public int RetrievalTopK { get; set; } = 20;
         public double MinimumSimilarity { get; set; } = 0.6;

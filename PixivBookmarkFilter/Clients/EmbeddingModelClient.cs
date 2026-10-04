@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -26,6 +27,10 @@ namespace PixivBookmarkFilter
             httpClient.BaseAddress = new Uri(baseUrl);
             httpClient.Timeout = TimeSpan.FromMinutes(5);
             model = settings.EmbeddingModel;
+
+            // omlx 這類本機服務可能要求 API Key，留空時不送 Authorization
+            if (!string.IsNullOrWhiteSpace(settings.EmbeddingModelApiKey))
+                httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", settings.EmbeddingModelApiKey.Trim());
         }
 
         public async Task<IReadOnlyList<float[]>> GenerateEmbeddingsAsync(IReadOnlyList<string> inputs, CancellationToken cancellationToken = default)
